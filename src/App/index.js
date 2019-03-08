@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
- 
- function Welcome(props){
-   return <h1>Welcome to CryptoDash</h1>
- }
+import WelcomeMessage from './WelcomeMessage'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Welcome/>
+        <WelcomeMessage/>
       </div>
     );
   }

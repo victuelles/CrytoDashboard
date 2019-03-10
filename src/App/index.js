@@ -13,7 +13,7 @@ class App extends Component {
        <AppProvider>
           <AppBar/>
           <Content>
-          <Settings/>
+            <Settings/>
           </Content>
        </AppProvider>
      </AppLayout>
